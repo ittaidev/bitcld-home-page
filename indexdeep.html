@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final ASIR</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 pt-16">
+
+  <!-- Header -->
+  <header class="bg-white shadow fixed top-0 left-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Proyecto Final ASIR</h1>
+      <a href="https://docs.bitcld.com" 
+          class="bg-blue-600 text-white px-4 py-2 rounded-xl shadow hover:bg-blue-700 transition">
+        Ver documentación
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero mejorado -->
+  <section class="max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
+    <div class="space-y-8 md:space-y-12">
+      <!-- Logo con más espacio -->
+      <div class="mb-8 md:mb-12">
+        <img src="https://raw.githubusercontent.com/Bitcld/icon-host/main/logo/logonobg2.png" 
+             class="mx-auto w-48 md:w-64 h-auto" 
+             alt="Logo del proyecto" />
+      </div>
+      
+      <!-- Título con mejor jerarquía -->
+      <div class="space-y-4 md:space-y-6">
+        <h2 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+          Plataforma Autogestionada de Servicios en la Nube
+        </h2>
+        <p class="text-xl md:text-2xl font-semibold text-blue-600">
+          Infraestructura Segura, Escalable y Monitorizada
+        </p>
+      </div>
+      
+      <!-- Descripción con mejor legibilidad -->
+      <div class="max-w-4xl mx-auto">
+        <p class="text-lg md:text-xl text-gray-600 leading-relaxed md:leading-loose">
+          Este proyecto implementa una infraestructura completa de servicios autogestionados en un entorno cloud, 
+          combinando contenedores Docker, servicios de productividad, monitorización, y seguridad perimetral. 
+          Se incluye una VPN privada para acceso remoto seguro, gestión de correo profesional, y un reverse proxy 
+          para exposición controlada de servicios. Además, integra capacidades de inteligencia artificial mediante 
+          APIs y modelos locales, garantizando privacidad y flexibilidad. La solución elimina la necesidad de abrir 
+          puertos hacia internet, centralizando la administración y ofreciendo alta disponibilidad con un enfoque 
+          en la ciberseguridad y eficiencia operativa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Objetivos Generales -->
+  <section class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Objetivos del proyecto</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
+          <div class="text-blue-500 mb-4">
+            <i class="fas fa-server text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-3">Infraestructura Linux</h4>
+          <p class="text-gray-600">Administrar y mantener servidores Linux como base del despliegue de servicios.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-green-500">
+          <div class="text-green-500 mb-4">
+            <i class="fas fa-cubes text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-3">Servicios Autogestionados</h4>
+          <p class="text-gray-600">Diseñar e implementar una infraestructura completa mediante contenedores y herramientas modernas.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500">
+          <div class="text-purple-500 mb-4">
+            <i class="fas fa-shield-alt text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-3">Entorno Seguro</h4>
+          <p class="text-gray-600">Desarrollar un entorno seguro, escalable y accesible para aplicaciones y servicios.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-red-500">
+          <div class="text-red-500 mb-4">
+            <i class="fas fa-chart-line text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-3">Buenas Prácticas</h4>
+          <p class="text-gray-600">Aplicar buenas prácticas en administración de sistemas, seguridad y monitorización.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-yellow-500">
+          <div class="text-yellow-500 mb-4">
+            <i class="fas fa-cloud text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-3">Seguridad Cloudflare</h4>
+          <p class="text-gray-600">Implementar solución de conectividad y seguridad avanzada mediante Cloudflare.</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500">
+          <div class="text-indigo-500 mb-4">
+            <i class="fas fa-flask text-2xl"></i>
+          </div>
+          <h4 class="text-xl font-semibold mb-3">Laboratorio Reutilizable</h4>
+          <p class="text-gray-600">Disponer de un laboratorio personal/profesional como entorno de prueba.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnologías -->
+  <section class="py-16 md:py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Tecnologías utilizadas</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fab fa-linux text-3xl text-gray-700 mb-3"></i>
+          <h4 class="font-semibold">Linux Server</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fab fa-docker text-3xl text-blue-500 mb-3"></i>
+          <h4 class="font-semibold">Docker</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-cloud text-3xl text-orange-500 mb-3"></i>
+          <h4 class="font-semibold">Cloudflare</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-network-wired text-3xl text-purple-500 mb-3"></i>
+          <h4 class="font-semibold">Tailscale VPN</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-cloud-upload-alt text-3xl text-blue-400 mb-3"></i>
+          <h4 class="font-semibold">Nextcloud</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-shield-alt text-3xl text-green-500 mb-3"></i>
+          <h4 class="font-semibold">AdGuard Home</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-heartbeat text-3xl text-red-500 mb-3"></i>
+          <h4 class="font-semibold">Uptime Kuma</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-chart-bar text-3xl text-teal-500 mb-3"></i>
+          <h4 class="font-semibold">Netdata</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-key text-3xl text-yellow-600 mb-3"></i>
+          <h4 class="font-semibold">Vaultwarden</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-exchange-alt text-3xl text-gray-600 mb-3"></i>
+          <h4 class="font-semibold">Caddy</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-brain text-3xl text-indigo-500 mb-3"></i>
+          <h4 class="font-semibold">IA (Local y API)</h4>
+        </div>
+        <div class="bg-white rounded-xl p-5 shadow-lg text-center transition transform hover:-translate-y-1">
+          <i class="fas fa-envelope text-3xl text-red-400 mb-3"></i>
+          <h4 class="font-semibold">Zoho Mail</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Objetivos Específicos -->
+  <section class="py-16 md:py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Objetivos específicos</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-6">
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-server text-blue-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Configuración de servidores</h4>
+                <p class="text-gray-600">Configurar, optimizar y securizar servidores Linux para alojar los distintos servicios desplegados.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-green-100 p-2 rounded-lg mr-4">
+                <i class="fab fa-docker text-green-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Gestión de contenedores</h4>
+                <p class="text-gray-600">Gestionar contenedores de forma centralizada con Dockge y Docker Compose.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-purple-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-cloud text-purple-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Seguridad con Cloudflare</h4>
+                <ul class="text-gray-600 list-disc ml-5 space-y-1 mt-2">
+                  <li>Gestión de DNS</li>
+                  <li>Cloudflared Tunnel para exponer servicios sin abrir puertos</li>
+                  <li>Gestión de dominio y subdominios</li>
+                  <li>Protección de aplicaciones y páginas web</li>
+                  <li>Cloudflare Access para controlar acceso a servicios internos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-network-wired text-indigo-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Acceso seguro a red privada</h4>
+                <p class="text-gray-600">Establecer un acceso seguro a la red privada con Tailscale VPN.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-cloud-upload-alt text-blue-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Almacenamiento en la nube</h4>
+                <p class="text-gray-600">Desplegar un sistema de almacenamiento seguro y privado en la nube mediante Nextcloud.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-green-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-shield-alt text-green-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Filtrado DNS</h4>
+                <p class="text-gray-600">Configurar AdGuard Home como solución de filtrado DNS para mejorar privacidad y seguridad.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-red-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-chart-line text-red-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Monitorización</h4>
+                <p class="text-gray-600">Implementar herramientas de monitorización, control de disponibilidad y automatización con Uptime Kuma y Netdata.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-yellow-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-key text-yellow-600"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Gestor de contraseñas</h4>
+                <p class="text-gray-600">Integrar Vaultwarden como gestor de contraseñas seguro y accesible.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-teal-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-brain text-teal-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-1">Inteligencia Artificial</h4>
+                <p class="text-gray-600">Explorar e implementar inteligencia artificial tanto mediante APIs externas como en entornos locales.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-200 py-8 mt-12">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-lg">© 2025 Proyecto Final ASIR · Desarrollado por Ittai Rivero (@ittaidev)</p>
+      <div class="mt-4 flex justify-center space-x-4">
+
+        <!-- <a href="https://ittai.dev" class="text-gray-300 hover:text-white transition">
+        <i class="fas fa-globe text-xl"></i> -->
+        </a>
+        <a href="https://github.com/ittaidev" class="text-gray-300 hover:text-white transition">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-300 hover:text-white transition">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+        <a href="https://x.com/ittaidev" class="text-gray-300 hover:text-white transition">
+          <i class="fab fa-x text-xl"></i>
+        </a>
+        <a href="#" class="text-gray-300 hover:text-white transition">
+            <i class="fab fa-youtube text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
