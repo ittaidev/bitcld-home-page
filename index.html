@@ -30,7 +30,7 @@
              alt="Logo del proyecto" />
       </div>
       
-      <!-- Título  -->
+      <!-- Título -->
       <div class="space-y-4 md:space-y-6">
         <h2 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
           Plataforma Autogestionada de Servicios en la Nube
@@ -40,7 +40,7 @@
         </p>
       </div>
       
-      <!-- Descripción  -->
+      <!-- Descripción -->
       <div class="max-w-4xl mx-auto">
         <p class="text-lg md:text-xl text-gray-600 leading-relaxed md:leading-loose">
           Este proyecto implementa una infraestructura completa de servicios autogestionados en un entorno cloud, 
@@ -56,90 +56,71 @@
   </section>
 
   <!-- Pilares e historia -->
-  <section id="pilares" class="py-12">
+  <section class="py-16 md:py-20">
     <div class="max-w-6xl mx-auto px-4">
-      <h3 class="text-2xl md:text-3xl font-bold mb-6">Pilares e historia</h3>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="space-y-4">
-          <div class="flex flex-wrap gap-2">
-            <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Simplicidad</span>
-            <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Seguridad</span>
-            <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Autohospedaje</span>
-            <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Open Source</span>
+      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Pilares e historia</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-6">
+          <!-- Pilares -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-indigo-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-database text-indigo-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-3">Pilares del proyecto</h4>
+                <div class="flex flex-wrap gap-2 mb-4">
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Simplicidad</span>
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Seguridad</span>
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Autohospedaje</span>
+                  <span class="px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 text-sm">Open Source</span>
+                </div>
+                <p class="text-gray-600">
+                  El proyecto prioriza un despliegue sencillo, seguro y autoalojado: modelo zero‑trust sin puertos abiertos,
+                  priorizando pero no limitando a soluciones open source siempre que sea posible.
+                </p>
+              </div>
+            </div>
           </div>
-          <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-            El proyecto prioriza un despliegue sencillo, seguro y autocontenido: modelo zero‑trust sin puertos abiertos,
-            priorizando pero no limitando a soluciones open source siempre que es posible. Se ha diseñado para
-            ejecutarse de forma eficiente en hardware modesto, por lo que cada decisión busca
-            ligereza y simplicidad operativa.
-          </p>
         </div>
-        <div class="bg-white dark:bg-gray-900 rounded-xl p-5 shadow border border-gray-100 dark:border-gray-800">
-          <h4 class="font-semibold mb-2">¿Por qué “bitcld”?</h4>
-          <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
-            bit es la unidad mínima de información y cld es la abreviatura de cloud. El nombre refleja la
-            idea de construir una nube propia con recursos muy limitados.
-          </p>
+        
+        <div class="space-y-6">
+          <!-- Historia -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-blue-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-cloud text-blue-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-3">¿Por qué "bitcld"?</h4>
+                <p class="text-gray-600">
+                  bit es la unidad mínima de información y cld es la abreviatura de cloud. El nombre refleja la
+                  idea de construir una nube propia con recursos muy limitados.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Hardware -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <div class="flex items-start">
+              <div class="bg-green-100 p-2 rounded-lg mr-4">
+                <i class="fas fa-microchip text-green-500"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-lg mb-3">Infraestructura física</h4>
+                <p class="text-gray-600">
+                  El proyecto está diseñado para ejecutarse eficientemente en hardware modesto: 
+                  Intel N100 con 12GB RAM, demostrando que es posible implementar 
+                  una infraestructura cloud completa sin requerir equipos de alta gama.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Objetivos Generales
-  <section class="py-16 md:py-20">
-    <div class="max-w-6xl mx-auto px-4">
-      <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Objetivos del proyecto</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-blue-500">
-          <div class="text-blue-500 mb-4">
-            <i class="fas fa-server text-2xl"></i>
-          </div>
-          <h4 class="text-xl font-semibold mb-3">Infraestructura Linux</h4>
-          <p class="text-gray-600">Administrar y mantener servidores Linux como base del despliegue de servicios.</p>
-        </div>
-        
-        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-green-500">
-          <div class="text-green-500 mb-4">
-            <i class="fas fa-cubes text-2xl"></i>
-          </div>
-          <h4 class="text-xl font-semibold mb-3">Servicios Autogestionados</h4>
-          <p class="text-gray-600">Diseñar e implementar una infraestructura completa mediante contenedores y herramientas modernas.</p>
-        </div>
-        
-        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-purple-500">
-          <div class="text-purple-500 mb-4">
-            <i class="fas fa-shield-alt text-2xl"></i>
-          </div>
-          <h4 class="text-xl font-semibold mb-3">Entorno Seguro</h4>
-          <p class="text-gray-600">Desarrollar un entorno seguro, escalable y accesible para aplicaciones y servicios.</p>
-        </div>
-        
-        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-red-500">
-          <div class="text-red-500 mb-4">
-            <i class="fas fa-chart-line text-2xl"></i>
-          </div>
-          <h4 class="text-xl font-semibold mb-3">Buenas Prácticas</h4>
-          <p class="text-gray-600">Aplicar buenas prácticas en administración de sistemas, seguridad y monitorización.</p>
-        </div>
-        
-        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-yellow-500">
-          <div class="text-yellow-500 mb-4">
-            <i class="fas fa-cloud text-2xl"></i>
-          </div>
-          <h4 class="text-xl font-semibold mb-3">Seguridad Cloudflare</h4>
-          <p class="text-gray-600">Implementar solución de conectividad y seguridad avanzada mediante Cloudflare.</p>
-        </div>
-        
-        <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500">
-          <div class="text-indigo-500 mb-4">
-            <i class="fas fa-flask text-2xl"></i>
-          </div>
-          <h4 class="text-xl font-semibold mb-3">Laboratorio Reutilizable</h4>
-          <p class="text-gray-600">Disponer de un laboratorio personal/profesional como entorno de prueba.</p>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <!-- Tecnologías -->
   <section class="py-16 md:py-20 bg-gray-100">
@@ -198,7 +179,7 @@
     </div>
   </section>
 
-<!-- Objetivos Específicos -->
+<!-- Objetivos  -->
 <section class="py-16 md:py-20">
   <div class="max-w-6xl mx-auto px-4">
     <h3 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-16">Objetivos del proyecto</h3>
@@ -387,7 +368,7 @@
       <p class="text-lg">© 2025 Proyecto Final de ASIR · Desarrollado por Ittai Rivero (@ittaidev)</p>
       <div class="mt-4 flex justify-center space-x-4">
 
-       <!--<a href="https://ittai.dev" class="text-gray-300 hover:text-white transition">
+        <!-- <a href="https://ittai.dev" class="text-gray-300 hover:text-white transition">
         <i class="fas fa-globe text-xl"></i>
         </a> -->
         <a href="https://github.com/ittaidev" class="text-gray-300 hover:text-white transition">
@@ -408,6 +389,7 @@
 
 </body>
 </html>
+
 
 
 
