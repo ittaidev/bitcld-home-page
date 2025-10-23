@@ -61,7 +61,8 @@ Los servicios se comunican internamente mediante una red Docker y se acceden ext
 - Monitorización: **Uptime Kuma**, **Netdata**  
 - Productividad: **Nextcloud**  
 - Gestor de contraseñas: **Vaultwarden**  
-- Correo: **Zoho Mail**  
+- Correo: **Zoho Mail**
+- Publicación web: **GitHub pages y Cloudflare pages**  
 - Documentación: **MkDocs Material**
 
 ---
