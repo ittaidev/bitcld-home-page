@@ -82,7 +82,7 @@ Incluye:
 
 ## Sobre el proyecto
 
-Desarrollado por **Ittai Rivero** @ittaidev como proyecto técnico de infraestructura y ciberseguridad dentro de mi formación en **Administración de Sistemas Informáticos en Red (ASIR)**.  
+Desarrollado por **Ittai Rivero** como proyecto técnico de infraestructura y ciberseguridad dentro de mi formación en **Administración de Sistemas Informáticos en Red (ASIR)**.  
 
 El propósito de **bitCLD** es servir como una implementación práctica de una nube privada moderna, integrando seguridad, automatización y autogestión.
 
