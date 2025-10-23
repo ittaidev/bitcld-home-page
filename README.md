@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/ittaidev/bitcld-homepage/main/images/logorecortenb.png" alt="bitCLD Banner" width="60%"/>
 </p>
 
-**bitCLD** es un ecosistema autoalojado de servicios en la nube diseñado para ofrecer una infraestructura segura, modular y privada, totalmente bajo el control del usuario.  
+**BitCLD** es un ecosistema autoalojado de servicios en la nube diseñado para ofrecer una infraestructura segura, modular y privada, totalmente bajo el control del usuario.  
 Combina contenedores Docker, redes seguras, monitorización y servicios de productividad en un entorno unificado, sin depender de proveedores externos.
 
 ---
@@ -69,7 +69,7 @@ Los servicios se comunican internamente mediante una red Docker y se acceden ext
 ## Documentación
 
 La documentación completa se encuentra en  
-[**bitcld.com/docs**](https://bitcld.com/docs)
+[**docs.bitcld.com**](https://docs.bitcld.com)
 
 Incluye:
 - Instalación paso a paso  
