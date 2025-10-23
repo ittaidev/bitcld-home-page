@@ -1,9 +1,9 @@
-# bitCLD — Ecosistema Autoalojado de Servicios en la Nube
+# BitCLD — Ecosistema Autoalojado de Servicios en la Nube
 
 **Simple. Seguro. Autoalojado.**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ittaidev/bitcld-homepage/main/images/logorecortenb.png" alt="bitCLD Banner" width="80%"/>
+  <img src="https://raw.githubusercontent.com/ittaidev/bitcld-homepage/main/images/logorecortenb.png" alt="bitCLD Banner" width="60%"/>
 </p>
 
 **bitCLD** es un ecosistema autoalojado de servicios en la nube diseñado para ofrecer una infraestructura segura, modular y privada, totalmente bajo el control del usuario.  
