@@ -13,7 +13,7 @@ Combina contenedores Docker, redes seguras, monitorización y servicios de produ
 
 ## Descripción general
 
-bitCLD integra distintos servicios orientados a la administración, la productividad y la ciberseguridad, todos gestionados de forma modular mediante Docker Compose y Dockge.  
+BitCLD integra distintos servicios orientados a la administración, la productividad y la ciberseguridad, todos gestionados de forma modular mediante Docker Compose y Dockge.  
 La infraestructura se ejecuta en un servidor local, pero se expone de manera segura a través de **Cloudflare Tunnel** y **Cloudflare Access**, eliminando la necesidad de abrir puertos al exterior.
 
 El proyecto está construido sobre los principios de privacidad, simplicidad operativa y autonomía tecnológica.
